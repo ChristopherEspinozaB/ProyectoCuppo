@@ -1,11 +1,79 @@
-.navbar-expand-lg{
-    background-color: #28a745;
-    color: white !important;
-    font-size: 24px;
+body{
+    font-family: 'Roboto', sans-serif !important;
 }
 
-.img-logo{
-    width: 200;
-    height: 50px;
-    margin-right: 1800px;
+.navbar-expand-lg{
+    background-color: #28a745;
+    font-size: 24px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.logo{
+    height: 40px;
+    margin-right: 60%;
+}
+
+.logo-negro{
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.gps{
+    display: flex;
+    font-weight: 300;
+}
+
+.precio{
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: 300;
+    color: #707070;
+}
+
+.oferta{
+    margin-left:45px;
+    color: #28a745;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.card-title{
+    font-weight: 500;
+}
+.card-text{
+    color: #707070 !important;
+    font-weight: 300;
+}
+
+.w-90 {
+    width: 90% !important;
+}
+
+.card-img-top{
+    height: 200px;
+    width: 200px;
+}
+
+.col{
+    margin: 15px
+}
+
+.card{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.derechos-reservados{
+    text-align: center;
+    font-weight: 300;
+}
+
+footer{
+    margin-top: 80px;
+    font-weight: 300;
 }
